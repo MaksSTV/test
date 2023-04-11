@@ -3,7 +3,6 @@ import { useEffect } from "react";
 function getJSON(){
   fetch('https://testspringboot-production.up.railway.app/json')
   .then(response => response.json())
-  .then(json => console.log(json))
   .catch(e => console.log(e))
 }
 
